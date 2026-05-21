@@ -31,8 +31,8 @@ export function Sidebar({
     (label: string, val: number, min: number, max: number, step: number, onChange: (v: number) => void) => (
       <div className="flex flex-col gap-1" key={label}>
         <div className="flex justify-between text-xs text-white/70">
-          <span>{label}</span>
-          <span className="font-mono">{val.toFixed(2)}</span>
+          <span className="font-thin tracking-wide">{label}</span>
+          <span className="font-thin">{val.toFixed(2)}</span>
         </div>
         <input
           type="range"
@@ -54,7 +54,7 @@ export function Sidebar({
 
   return (
     <div
-      className="fixed top-4 right-4 z-50 flex flex-col gap-5 p-5 rounded-2xl"
+      className="fixed top-4 right-4 z-50 flex flex-col gap-5 p-5 rounded-none"
       style={{
         width: 240,
         background: 'rgba(15, 15, 30, 0.55)',
@@ -62,16 +62,16 @@ export function Sidebar({
         WebkitBackdropFilter: 'blur(20px)',
         border: '1px solid rgba(255,255,255,0.08)',
         boxShadow: '0 8px 40px rgba(0,0,0,0.35)',
-        fontFamily: 'system-ui, sans-serif',
+        fontFamily: 'inherit',
       }}
     >
       <div className="flex items-center justify-between">
-        <h2 className="text-sm font-semibold text-white/90 m-0 tracking-wide uppercase">
+        <h2 className="text-sm font-thin text-white/90 m-0 tracking-widest uppercase">
           Controls
         </h2>
         <button
           onClick={onReset}
-          className="text-xs px-2.5 py-1 rounded-lg border-0 cursor-pointer"
+          className="text-xs px-2.5 py-1 rounded-none border-0 cursor-pointer font-thin"
           style={{
             background: 'rgba(255,255,255,0.08)',
             color: 'rgba(255,255,255,0.7)',
