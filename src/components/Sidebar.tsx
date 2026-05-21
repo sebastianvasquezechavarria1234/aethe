@@ -44,7 +44,7 @@ export function Sidebar({
           className="w-full h-1.5 rounded-full appearance-none cursor-pointer"
           style={{
             background: `rgba(255,255,255,0.15)`,
-            accentColor: '#a78bfa',
+            accentColor: '#fff',
           }}
         />
       </div>
@@ -66,7 +66,7 @@ export function Sidebar({
       }}
     >
       <div className="flex items-center justify-between">
-        <h2 className="text-sm font-thin text-white/90 m-0 tracking-widest uppercase">
+        <h2 className="text-sm font-thin text-white/90 m-0 uppercase">
           Controls
         </h2>
         <button
