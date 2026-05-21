@@ -1,4 +1,4 @@
-# 🪐 newTons — Interactive 2D Physics Sandbox
+# 🪐 Aethe — Interactive 2D Physics Sandbox
 
 A premium, highly interactive 2D physics sandbox that blends modern web UI components with a powerful, real-time physics simulation. Drag, toss, bounce, and attract futuristic technology cards in a glassmorphic space.
 
@@ -44,7 +44,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. **Clone or open the directory**:
    ```bash
-   cd newTons
+   cd aethe
    ```
 
 2. **Install dependencies**:
@@ -87,7 +87,7 @@ Instead of standard canvas rendering, this project maps **standard HTML React co
 ## 📂 Project Structure
 
 ```
-newTons/
+aethe/
 ├── public/                 # Static assets (images, preview.png, favicon)
 ├── src/
 │   ├── components/
@@ -103,3 +103,10 @@ newTons/
 ├── package.json
 └── tailwind.config.js
 ```
+
+---
+
+## 📄 License
+
+This project is open-source and licensed under the [MIT License](./LICENSE). That means anyone is free to access, copy, modify, distribute, and build upon this code without any restrictions.
+
