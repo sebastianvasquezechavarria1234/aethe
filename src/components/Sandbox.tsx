@@ -13,6 +13,12 @@ const INITIAL_CARDS: CardData[] = [
   { id: 6, title: 'Cipher Core', description: 'Homomorphic encryption layer', image: '/ce7d991bd59fe943385fbea80dd7b222.jpg' },
   { id: 7, title: 'Fusion API', description: 'GraphQL + WebSocket gateway', image: '/d5b90ec3e614ccd60a5479919c95dd4e.jpg' },
   { id: 8, title: 'Pixel Flow', description: 'AI-powered video synthesis', image: '/048155170c820a3dad81ae1e5b043538.jpg' },
+  { id: 9, title: 'Echo Shell', description: 'Voice-controlled terminal', image: '/16d276dae2b866be1c8faed7ccc1bb15.jpg' },
+  { id: 10, title: 'Prism View', description: 'Augmented reality debugger', image: '/47c98aecdfdaa0e4c8a585642981b357.jpg' },
+  { id: 11, title: 'Flux Gate', description: 'Event-driven microservices', image: '/8496ace83d5a13daeb68a6516c58dd99.jpg' },
+  { id: 12, title: 'Nova Core', description: 'Edge computing runtime', image: '/c09384d9ab2dade46db96408a33caba9.jpg' },
+  { id: 13, title: 'Blink Cache', description: 'In-memory data grid', image: '/ce7d991bd59fe943385fbea80dd7b222.jpg' },
+  { id: 14, title: 'Apex Sync', description: 'Real-time collaboration hub', image: '/d5b90ec3e614ccd60a5479919c95dd4e.jpg' },
 ];
 
 const DEFAULT_CONTROLS = {
